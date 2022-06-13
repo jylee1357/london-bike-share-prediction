@@ -4,16 +4,22 @@
 - Compared DNN, Random Forest Regressor, XGBRegressor and LGBMRegressor
 - Made prediction using RNN,LSTM,GRU (based on Time Series)
 ### 𝌞 Data Preprocessing
-* Datasets
-  - application_train.csv
-  - application_test.csv
-  - bureau.csv
-  - bureau_balance.csv
-  - credit_card_balance.csv
-  - installments_payments.csv
-  - POS_CASH_balance.csv
-  - previous_application.csv
+* Kaggle Datasets  
+   <img width="689" alt="Screen Shot 2022-06-13 at 9 43 15 PM" src="https://user-images.githubusercontent.com/98932859/173356366-869ab439-752f-4908-9e9a-2c5ed5637a69.png">
    
+  |Variable|Explanation|
+  |------|---|
+  |timestamp|Time of Rental|
+  |cnt|Number of users|
+  |t1|Temperature|
+  |t2|Windchill Temperature|
+  |hum|Humidity|
+  |wind_speed|Wind Speed|
+  |weather_code|Weather Code by Category|
+  |is_holiday|Whether the day is holiday|
+  |is_weekend|Whether the day is weekend|
+  |season|Season|
+  
 * Preprocessing
   - application_train.csv
     + Use Pandas factorize() on object columns
