@@ -21,12 +21,13 @@
   |season|Season|
   
 * Preprocessing
-  - application_train.csv
-    + Use Pandas factorize() on object columns
-    + In "DAYS_EMPLOYED" column, there are outliers (EMPLOYED DAYS > 1,000); therefore, I decided to remove it.
-  - Previous_application_train.csv
-    + Merged with application_train.csv
-    + Used aggregation to apply all the preprocessing functions on each 'SK_ID_CURR' and saved the result as a new dataframe
+  - Divided 'timestamp' by year, month, day of week, and hour
+     <img width="671" alt="Screen Shot 2022-06-13 at 9 56 47 PM" src="https://user-images.githubusercontent.com/98932859/173358820-f52f57a5-07cc-4604-abb3-9ae2d9690611.png">
+    
+  - Removed outliers     
+     <img width="669" alt="Screen Shot 2022-06-13 at 9 59 00 PM" src="https://user-images.githubusercontent.com/98932859/173359110-4b9d1177-73af-4016-9f6e-5a9ae52a8942.png">
+
+    
  * Feature Engineering
    - Created new factors using amt_credit
       +  <img width="1000" alt="Screen Shot 2022-06-11 at 8 53 20 AM" src="https://user-images.githubusercontent.com/98932859/173163734-fa502127-3a23-479f-8fa3-ca98522194dd.png">
