@@ -41,5 +41,5 @@
     <img width="997" alt="Screen Shot 2022-06-13 at 10 17 13 PM" src="https://user-images.githubusercontent.com/98932859/173362374-c2c3510f-da8d-4365-8b4d-ebf1375be862.png">
     
 ### 📍 Takeaway
-* The determinant features that enhanced model's performance were 'DAYS_BIRTH', 'AMT_CREDIT', 'CREDIT_SCORE'.
-* After cross-validation, the model's final score improved by 0.03.
+* In deep learning model, Random Forest Regressor scored the lowest RMSE
+* In time series model, LSTM scored the lowest RMSE
